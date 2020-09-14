@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "github",
+    "repository": "NusantaraROM-Devices/device_xiaomi_msm8998-common",
+    "target_path": "device/xiaomi/msm8998-common",
+    "branch": "10"
+  },
+  {
+    "remote": "github",
+    "repository": "trisfaizal/kernel_xiaomi_msm8998-PH",
+    "target_path": "kernel/xiaomi/msm8998",
+    "branch": "ten-placeholder"
+  },
+  {
+    "remote": "github",
+    "repository": "trisfaizal/vendor_apps_MiuiCamera",
+    "target_path": "vendor/apps/MiuiCamera",
+    "branch": "10"
+  },
+  {
+    "remote": "github",
+    "repository": "trisfaizal/vendor_xiaomi_sagit",
+    "target_path": "vendor/xiaomi",
+    "branch": "10"
+  }
+]
