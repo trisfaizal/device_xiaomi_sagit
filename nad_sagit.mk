@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/sagit/device.mk)
 # Inherit some common Nusantara stuff.
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/apps/MiuiCamera/config.mk)
+
 PRODUCT_NAME := nad_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
