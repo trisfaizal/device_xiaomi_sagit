@@ -27,6 +27,9 @@ $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/apps/MiuiCamera/config.mk)
 
+# ScreenRecorder
+$(call inherit-product-if-exists, vendor/apps/OPScreenRecord/config.mk)
+
 PRODUCT_NAME := nad_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
